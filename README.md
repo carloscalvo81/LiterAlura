@@ -109,18 +109,6 @@ literalura
 
 
 
-===== Bem-vindo ao Literalura =====
 
-1 - Buscar livro por título
-2 - Listar todos os livros cadastrados
-3 - Listar autores cadastrados
-4 - Exibir autores vivos em determinado ano
-5 - Listar livros por idioma
-6 - Buscar autor por nome
-7 - Exibir Top 10 livros mais baixados
-8 - Estatísticas de downloads
-9 - Sair
-
-===================================
 
 
