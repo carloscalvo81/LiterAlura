@@ -56,6 +56,7 @@ Consulta autores considerando suas datas de nascimento e morte.
 
 🌐 Listar livros por idioma
 
+
 Suporte para os idiomas:
 
 Português (PT)
@@ -66,6 +67,7 @@ Espanhol (ES)
 
 Francês (FR)
 
+
 👤 Buscar autor por nome
 
 Consulta eficiente diretamente no banco de dados.
@@ -73,6 +75,7 @@ Consulta eficiente diretamente no banco de dados.
 🏆 Top 10 livros mais baixados
 
 Ranking com os livros mais populares.
+
 
 Tecnologias
 
@@ -87,6 +90,7 @@ PostgreSQL 15+
 Maven
 
 Como Rodar o Projeto
+
 Pré-requisitos
 
 Antes de iniciar, certifique-se de ter instalado:
@@ -103,28 +107,7 @@ Crie um banco de dados chamado:
 
 literalura
 
-Configure as variáveis de ambiente:
 
-export DB_LITERALURA_USER=seu_usuario
-export DB_LITERALURA_PASSWORD=sua_senha
-
-Ou configure diretamente no application.properties:
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-spring.datasource.username=${DB_LITERALURA_USER}
-spring.datasource.password=${DB_LITERALURA_PASSWORD}
-Executando o Projeto
-
-Instale as dependências:
-
-mvn clean install
-
-Execute a aplicação:
-
-mvn spring-boot:run
-💡 Exemplo de Uso
-
-Menu apresentado no console (CLI):
 
 ===== Bem-vindo ao Literalura =====
 
@@ -140,12 +123,4 @@ Menu apresentado no console (CLI):
 
 ===================================
 
-Escolha uma opção:
-👨‍💻 Autor  Carlos Eduardo
 
-Projeto desenvolvido como parte do programa:
-
-Oracle Next Education (ONE) + Alura
-📊 Estatísticas de downloads
-
-Relatórios gerados utilizando DoubleSummaryStatistics, exibindo métricas em tempo real.
